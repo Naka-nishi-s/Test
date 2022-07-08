@@ -1,8 +1,9 @@
-p {
-  line-height: 5;
-  background: skyblue;
+ul {
+  list-style: circle inside url(../img/icon.png);
 }
 
-img {
-  vertical-align: middle;
+ol {
+  list-style-type: lower-alpha;
+  list-style: inside;
+  /* list-style-type: none; */
 }
